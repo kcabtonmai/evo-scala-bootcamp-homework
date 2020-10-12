@@ -94,7 +94,7 @@ object ControlStructuresHomework {
   }
 
   def process(x: String): String = {
-    import cats.implicits._
+    //import cats.implicits._
     // the import above will enable useful operations on Either-s such as `leftMap`
     // (map over the Left channel) and `merge` (convert `Either[A, A]` into `A`),
     // but you can also avoid using them using pattern matching.
